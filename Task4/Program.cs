@@ -9,7 +9,7 @@
 System.Console.WriteLine("Введите загаданное число N");
 int value1 = Promt("Введите число > ");
 //int value2 = Promt("Введите второе число > ");
-for(int i=1; i < value1; i++)
+for(int i=1; i <= value1; i++)
     if(i % 2 == 0)
         System.Console.WriteLine($"{i}");
 //else
