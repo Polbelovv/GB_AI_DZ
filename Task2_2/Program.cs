@@ -1,11 +1,3 @@
-﻿/*int Promt(string message)
-{
-
-    System.Console.Write(message);
-    string readValue = Console.ReadLine();
-    int result = int.Parse(readValue);
-    return result;
-}*/
 System.Console.WriteLine("Случайное трёхзначное число без средней цифры");
 int value1, value2, value3;
 int num = new Random().Next(100, 999);
